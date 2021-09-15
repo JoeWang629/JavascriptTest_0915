@@ -4,7 +4,7 @@ For Interview
 
 # JavaScript ES5+ 實作
 
-use index.html
+see index.html
 
 # 實作 React Custom hook (加分題)
 
