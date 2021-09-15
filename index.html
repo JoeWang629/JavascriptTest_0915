@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Test</title>
+
+</head>
+
+<body>
+    <h1>JavaScript ES5+ 實作</h1>
+    <h2>1. 實作 Fibonacci number (費式數列)</h2>
+    <h3>請輸入欲查詢 position 參數 => result:
+        <span id="fibResult"></span>
+    </h3>
+    <input type="text" id="position" onfocus="this.value=''">
+    <button onClick="getFib()">查詢</button>
+
+    <h2>2. 實作 Debounce</h2>
+    <h3>請點擊 button</h3>
+    <button id="debounce">Click (Debounce)</button>
+
+    <h2>3. 使用 Linked List 實作 Stack</h2>
+    <h3>請輸入新元素</h3>
+    <input type="text" id="pushElement" onfocus="this.value=''">
+    <button onClick="myStack.push(document.getElementById('pushElement').value)">Push</button>
+    <h3>移除元素並返回被移除的元素
+        <span id="popResult"></span>
+    </h3>
+    <button onClick="myStack.pop()">Pop</button>
+    <h3>返回所有元素數量
+        <span id="sizeResult"></span>
+    </h3>
+    <button onClick="myStack.size()">Size</button>
+
+    <h2>4. 實作 getPagination</h2>
+    <h3>請輸入offset (資料開始位置)、limit(資料擷取長度)、total (總資料筆 數)</h3>
+    <input type="text" id="pageElement" placeholder="offset, limit, total">
+    <button onClick="pageClick()">Get Pagination</button>
+    <h3>
+        <span id="pageResult"></span>
+    </h3>
+</body>
+<script src="main.js"></script>
+
+</html>
